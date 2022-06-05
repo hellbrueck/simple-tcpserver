@@ -16,7 +16,7 @@ or build you own image with [Dockerfile](./docker/Dockerfile) [here](./docker) p
 
 	docker build -t simple-tcpserver .
 	
-	docker run -p 11211:11211 simple-tcpserver
+	docker run -it -p 11211:11211 simple-tcpserver
 
 see the following output:
 
@@ -49,4 +49,10 @@ see the following output:
 	Ncat: Connection from 172.17.0.1.
 	Ncat: Connection from 172.17.0.1:59364.
 	
-to stop server press
+to detach from the server press Ctrl-P Ctrl-Q and stop server with 
+
+	docker stop <container id>
+
+	docker ps -a
+	
+will show all container images
