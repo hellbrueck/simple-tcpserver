@@ -8,4 +8,8 @@ for echo server run
 
 to connect it to the bash and have it run as telnet server run
 
-	ncat -v -e /bin/bash -k -u -l 11211
+	ncat -v -e /bin/bash -k -u -l 11212
+
+if you do not want to install ncat use the dockerized versions in docker hub https://hub.docker.com/
+
+	
