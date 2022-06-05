@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-RUN apk add --no-cache ncat
+RUN apk add --no-cache --update nmap-ncat
 
 EXPOSE 11211
 
