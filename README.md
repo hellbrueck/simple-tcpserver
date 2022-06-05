@@ -12,7 +12,7 @@ to connect it to the bash and have it run as telnet server run
 
 if you do not want to install ncat use the dockerized versions in docker hub https://hub.docker.com/
 
-or build you own image with [Dockerfile](./docker/Dockerfile) [here](./docker) provided for the echo server
+or build you own image with [Dockerfile](./docker/Dockerfile) [here](./docker) provided for the echo server (change directory to folder docker)
 
 	docker build -t simple-tcpserver .
 	
