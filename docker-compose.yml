@@ -2,3 +2,5 @@ version: '3'
 services:
   tcpserver:
     image: hellbruh/simple-tcpserver
+    ports:
+      - "11211:11211"
